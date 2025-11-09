@@ -19,7 +19,6 @@ app.get('/youtube', (req, res) => {
   res.send("<h2>Coffee and Backend!</h2>")
 })
 
-
 app.get('/terms', (req, res) => {
   res.send("<h2>Mutual funds are subject to market risks!</h2>")
 })
