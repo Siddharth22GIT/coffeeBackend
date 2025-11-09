@@ -1,0 +1,19 @@
+{
+  "name": "coffee-and-backend",
+  "version": "1.0.0",
+  "description": "This is a basic deployment setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "npm",
+    "coffee"
+  ],
+  "author": "Siddharth Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
