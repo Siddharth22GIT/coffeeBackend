@@ -9,7 +9,6 @@ const GithubError = {
   "status": "404"
 }
 
-
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
@@ -32,4 +31,8 @@ app.get('/terms', (req, res) => {
 
 app.get('/github', (req, res) => {
   res.json(GithubError)
+})
+
+app.get('/offers', (req, res) => {
+  res.send("<h1>Hurry UP! </h1><br><h2>Special offer awaits</h2>")
 })
