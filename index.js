@@ -9,6 +9,11 @@ const GithubError = {
   "status": "404"
 }
 
+const fetch = {
+  "welcome":"WELCOME TO THE DARK WEB!",
+  "Age": "Mention your age...",
+  "Caution": "YOU ARE AT YOUR OWN RISK"
+}
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
@@ -36,3 +41,11 @@ app.get('/github', (req, res) => {
 app.get('/offers', (req, res) => {
   res.send("<h1>Hurry UP! </h1><br><h2>Special offer awaits</h2>")
 })
+
+app.get('/darkweb', (req, res) => {
+  res.json(fetch)
+})
+
+//! JSON - Javascript Object Notation
+//? SO (res.json) gives an object in the output.
+
